@@ -1,6 +1,6 @@
 # dt_compress_image_package
 
-## A package to compress image (png or complete).
+## A package to compress image (png or jpg).
 
 ## This package is used to compress image(png or jpg currently)
 ### There are two ways to compress images.
