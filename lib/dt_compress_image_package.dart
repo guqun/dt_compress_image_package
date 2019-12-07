@@ -7,6 +7,7 @@ import 'package:image/image.dart';
 
 class CompressImage
 {
+
   static Future<String> compressJPG(File file, String path, {int maxMemorySize, int maxFileSize, int minOpt = 30}) async
   {
     if (maxMemorySize == null && maxFileSize == null) {

@@ -1,3 +1,8 @@
-## [0.0.1] - TODO: Add release date.
+## 0.0.3
+* complete docment
 
-* TODO: Describe initial release.
+## 0.0.2
+* improve the interface
+
+## 0.0.1
+* initial release.
