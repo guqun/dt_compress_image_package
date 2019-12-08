@@ -1,6 +1,6 @@
 name: dt_compress_image_package
 description: A package to compress image (png or complete).
-version: 0.0.2
+version: 0.0.3
 author: niuqun <guqung6@gmail.com>
 homepage: https://github.com/guqun
 
