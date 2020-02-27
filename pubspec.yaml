@@ -1,6 +1,6 @@
 name: dt_compress_image_package
-description: A package to compress image (png or complete).
-version: 0.0.3
+description: A package to compress image (png or jpg).
+version: 0.0.4
 author: niuqun <guqung6@gmail.com>
 homepage: https://github.com/guqun
 
@@ -13,8 +13,8 @@ dependencies:
   image: ^2.1.9
 
 dev_dependencies:
-  flutter_test:
-    sdk: flutter
+#  flutter_test:
+#    sdk: flutter
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
