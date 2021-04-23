@@ -5,12 +5,12 @@ author: niuqun <guqung6@gmail.com>
 homepage: https://github.com/guqun
 
 environment:
-  sdk: ">=2.1.0 <3.0.0"
+  sdk: '>=2.12.0 <3.0.0'
 
 dependencies:
   flutter:
     sdk: flutter
-  image: ^2.1.9
+  image: ^3.0.2
 
 dev_dependencies:
 #  flutter_test:

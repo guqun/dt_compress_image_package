@@ -8,12 +8,12 @@ import 'package:image/image.dart';
 class CompressImage
 {
 
-  static Future<String> compressJPG(File file, String path, {int maxMemorySize, int maxFileSize, int minOpt = 30}) async
+  static Future<String> compressJPG(File file, String path, {int? maxMemorySize, int? maxFileSize, int minOpt = 30}) async
   {
     if (maxMemorySize == null && maxFileSize == null) {
       return file.path;
     }
-    Image image = decodeImage(file.readAsBytesSync());
+    Image image = decodeImage(file.readAsBytesSync())!;
     bool isJpg = file.path.endsWith("jpg") || file.path.endsWith("jpeg");
     if (!isJpg) {
       throw Exception("typs is not jpg or jpeg");
@@ -52,12 +52,12 @@ class CompressImage
 
 
 
-  static Future<String> compressPNG(File file, String path, {int maxMemorySize, int compressLevel}) async
+  static Future<String> compressPNG(File file, String path, {int? maxMemorySize, int? compressLevel}) async
   {
     if (maxMemorySize == null && compressLevel == null) {
       return file.path;
     }
-    Image image = decodeImage(file.readAsBytesSync());
+    Image image = decodeImage(file.readAsBytesSync())!;
     bool isPNG = file.path.endsWith("png");
     if (!isPNG) {
       throw Exception("typs is not png");
